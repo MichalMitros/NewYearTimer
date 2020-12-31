@@ -5,7 +5,7 @@ var counter_timer = 0;
 
 function isReady() {
   // return moment().year() === 2020;
-  return isRunning_timer || moment().year() === 2020;
+  return isRunning_timer || moment().year() === 2021;
 }
 
 function showTimer() {

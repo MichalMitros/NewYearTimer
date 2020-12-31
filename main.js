@@ -81,9 +81,9 @@ function draw() {
         additional_height = -height/7;
       }
       if(height < width) {
-        text("2020", width/2, height/2 + height/24 + additional_height);
+        text("2021", width/2, height/2 + height/24 + additional_height);
       } else {
-        text("2020", width/2, height/2 + width/24 + additional_height);
+        text("2021", width/2, height/2 + width/24 + additional_height);
       }
     }
   }

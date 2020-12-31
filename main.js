@@ -8,7 +8,7 @@ p5.disableFriendlyErrors = false;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   gravity = createVector(0, height/1400);
-  if(moment().year() === 2020) {
+  if(moment().year() === 2021) {
     start = -2;
   }
 }

@@ -8,7 +8,7 @@ p5.disableFriendlyErrors = false;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   gravity = createVector(0, height/1400);
-  if(moment().year() === 2021) {
+  if(moment().year() === 2022) {
     start = -2;
   }
 }
@@ -81,9 +81,9 @@ function draw() {
         additional_height = -height/7;
       }
       if(height < width) {
-        text("2021", width/2, height/2 + height/24 + additional_height);
+        text("2022", width/2, height/2 + height/24 + additional_height);
       } else {
-        text("2021", width/2, height/2 + width/24 + additional_height);
+        text("2022", width/2, height/2 + width/24 + additional_height);
       }
     }
   }
